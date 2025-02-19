@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="700"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <title>Stacked-AE_4_GeoMaps</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+  <!-- add tabs for other tro related work -->  
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <div class="tabs is-centered">
+          <ul>
+            <li class="is-active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=MQQy_T4AAAAJ">Publications</a>
+            </li>
+            <li>
+              <a href="https://naagar.github.io/project_page_CInCFlow/">CInC Flow</a>
+            </li>
+            <li>
+              <a href="https://naagar.github.io/projectPage_InverseFlow/">Inverse-Flow</a>
+            </li>
+            <li>
+              <a href="https://researchweb.iiit.ac.in/~sandeep.nagar/">Contact</a>
+            </li> 
+            <li>
+              <a href="https://minview.geoscience.nsw.gov.au/">Dataset</a>
+            </li>
+            <!-- <li>
+              <a href="https://scholar.google.com/citations?user=MQQy_T4AAAAJ">More(gs)</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Remote Sensing Framework for Geological Mapping via
+              Stacked Autoencoders and Clustering</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=MQQy_T4AAAAJ" target="_blank">Sandeep Nagar*<sup>1</sup>,</a></span>
+                <span class="author-block">
+                  <a href="https://researchweb.iiit.ac.in/~sandeep.nagar/" target="_blank">Ehsan Farahbakhsh*<sup>2</sup></a>,</span>
+                <!-- <a href="https://researchweb.iiit.ac.in/~sandeep.nagar/" target="_blank">Sandeep Nagar</a>,</span>
+                <span class="author-block"> -->
+                  <span class="author-block"> </span>
+                  <a href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-joseph-awange/" target="_blank">Joseph Awange,<sup>3</sup></a></span>
+                
+                  <a href="https://research.unsw.edu.au/people/dr-rohitash-chandra" target="_blank">Rohit Chandra<sup>4</sup></a></span>
+                  <!-- <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  </span> -->
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>ML Lab, IIIT Hyderabad, India<br>
+                    <span class="author-block"><sup>2</sup>EarthByte Group, School of Geosciences, The University of Sydney, Sydney, Australia<br>
+                    <span class="author-block"><sup>3</sup>School of Earth and Planetary Sciences, Curtin University, Perth, Australia<br>
+                      <span class="author-block"><sup>4</sup>Transitional Artificial Intelligence Research Group, School of Mathematics and Statistics, University of New South Wales, Sydney, Australia<br>
+                      <!-- <span class="author-block">Computer Science Dept., École Normale Supérieure (ENS), Paris-Saclay, France<sup>2</sup><br> -->
+                        Accepted: Advances in Space Research Journal, 2024</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0273117724009335" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://doi.org/10.1016/j.asr.2024.09.013" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/sydney-machine-learning/autoencoders_remotesensing" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2404.02180" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Supervised machine learning methods for geological mapping via remote sensing face limitations due to the scarcity of accurately
+labelled training data that can be addressed by unsupervised learning, such as dimensionality reduction and clustering. Dimensionality
+reduction methods have the potential to play a crucial role in improving the accuracy of geological maps. Although conventional dimensionality reduction methods may struggle with nonlinear data, unsupervised deep learning models such as autoencoders can model nonlinear relationships. Stacked autoencoders feature multiple interconnected layers to capture hierarchical data representations useful for
+remote sensing data. We present an unsupervised machine learning-based framework for processing remote sensing data using stacked
+autoencoders for dimensionality reduction and k-means clustering for mapping geological units. We use Landsat 8, ASTER, and
+Sentinel-2 datasets to evaluate the framework for geological mapping of the Mutawintji region in Western New South Wales, Australia.
+We also compare stacked autoencoders with principal component analysis (PCA) and canonical autoencoders. Our results reveal that the
+framework produces accurate and interpretable geological maps, efficiently discriminating rock units. The results reveal that the combination of stacked autoencoders with Sentinel-2 data yields the best performance accuracy when compared to other combinations. We
+find that stacked autoencoders enable better extraction of complex and hierarchical representation of the input data when compared
+to canonical autoencoders and PCA. We also find that the generated maps align with prior geological knowledge of the study area while
+providing novel insights into geological structures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+        <!-- Your image here -->
+         <!-- add centered image below  -->
+        <!-- <img src="static/images/stacked_autoencoder.png" alt="MY ALT TEXT"/> -->
+        <img src="static/images/dim_reduction.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          Dimensionality Reduction for Multispectoral Images.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/SAE_model.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          Overview of Stacked-AutoEncoder arch.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/proposed_arch.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          Proposed framework using Stacked-Autoencoder and k-mean clustring algorithm.
+        </h2>
+      
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/geological_units.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          Clustered map interpreted by implementing the proposed
+framework and applying stacked autoencoders to the Sentinel-2 dataset.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/litho_mapping.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          Lithological maps for Sentinel-2 dataset.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/false_colo_composit.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          False colour composite images generated using (a) Landsat 8 (RGB 753), (b) ASTER (RGB 321), and (c) Sentinel-2 (RGB 843) data.
+        </h2>
+      
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/results_clustring.png" alt="MY ALT TEXT" class="centered-image"/>
+          <h2 class="subtitle has-text-centered">
+            Elbow plots obtained for each pair of the data types and dimensionality reduction methods.
+          </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- add one div for thesis pdf -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Aditya's Thesis</h2>
+      <iframe  src="static/pdfs/Thesis_Defence.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{NAGAR20244502,
+    title = {Remote sensing framework for geological mapping via stacked autoencoders and clustering},
+    journal = {Advances in Space Research},
+    volume = {74},
+    number = {10},
+    pages = {4502-4516},
+    year = {2024},
+    issn = {0273-1177},
+    doi = {https://doi.org/10.1016/j.asr.2024.09.013},
+    url = {https://www.sciencedirect.com/science/article/pii/S0273117724009335},
+    author = {Sandeep Nagar and Ehsan Farahbakhsh and Joseph Awange and Rohitash Chandra},
+    keywords = {Remote sensing, Deep learning, Dimensionality reduction, Stacked autoencoders, -means clustering, Geological mapping},
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+    
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+<!-- Youtube video --> -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container"> -->
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+            <!-- Youtube embed code here -->
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
