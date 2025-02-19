@@ -1,7 +1,7 @@
 #  Project Page
 This is an "Remote sensing framework for geological mapping via stacked autoencoders and clustering" paper project page.
 
-url: [project_page_stackedAE4Geo](https://naagar.github.io/project_page_stackedAE4Geo/)
+url: [projectPage_stackedAE4Geo](https://naagar.github.io/projectPage_stackedAE4Geo/)
 
 ## Paper: [here](https://www.sciencedirect.com/science/article/pii/S0273117724009335)
 
